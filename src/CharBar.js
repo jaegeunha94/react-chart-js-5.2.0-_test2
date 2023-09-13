@@ -40,7 +40,7 @@ const data = {
       label: 'Dataset 1',
       borderColor: 'rgb(255, 99, 132)',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
-      hoverBackgroundColor: 'blue',
+      // hoverBackgroundColor: 'blue',
       // borderRadius: 5,
       // barThickness: 48,
     },
