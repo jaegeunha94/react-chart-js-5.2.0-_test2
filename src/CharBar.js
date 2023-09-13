@@ -1,57 +1,44 @@
 import React from 'react';
-
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
 export const options = {
-  responsive: true,
-  plugins: {
-    legend: { display: false },
-    datalabels: {
-      color: 'red',
-    },
-    tooltip: {
-      titleColor: 'red',
-      backgroundColor: 'rgba(255, 99, 132, 0.5)',
-      bodyColor: 'green',
-      displayColors: false,
-      yAlign: 'bottom',
+  indexAxis: 'y',
+  elements: {
+    bar: {
+      borderWidth: 2,
     },
   },
-  scales: {
-    xAxes: {
-      grid: {
-        lineWidth: 0.5,
-        display: false,
-        borderColor: 'transparent',
-        tickColor: 'transparent',
-      },
-      ticks: {
-        color: 'green',
-        font: {
-          size: 24,
-        },
-      },
+  responsive: true,
+  plugins: {
+    legend: {
+      position: 'right',
     },
-    yAxis: {
-      beginAtZero: true,
-      // offset: true,
-      grid: {
-        color: 'red',
-        lineWidth: 0.5,
-        tickColor: 'transparent',
-        borderColor: 'transparent',
-      },
-      ticks: {
-        color: 'red',
-        font: {
-          size: 24,
-        },
-      },
+    title: {
+      display: true,
+      text: 'Chart.js Horizontal Bar Chart',
     },
   },
 };
 
-export const data = {
+const data = {
   labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
   datasets: [
     {
