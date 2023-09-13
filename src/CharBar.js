@@ -20,20 +20,14 @@ ChartJS.register(
 );
 
 export const options = {
-  indexAxis: 'y',
-  elements: {
-    bar: {
-      borderWidth: 2,
-    },
-  },
   responsive: true,
   plugins: {
     legend: {
-      position: 'right',
+      position: 'top',
     },
     title: {
       display: true,
-      text: 'Chart.js Horizontal Bar Chart',
+      text: 'Chart.js Bar Chart',
     },
   },
 };
@@ -47,8 +41,8 @@ const data = {
       borderColor: 'rgb(255, 99, 132)',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
       hoverBackgroundColor: 'blue',
-      borderRadius: 5,
-      barThickness: 48,
+      // borderRadius: 5,
+      // barThickness: 48,
     },
     {
       label: 'Dataset 2',
