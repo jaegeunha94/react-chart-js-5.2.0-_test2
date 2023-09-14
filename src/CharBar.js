@@ -84,6 +84,9 @@ const data = {
       // hoverBorderRadius: 5,
       //5. ETC
       // barThickness: 48,
+      // barPercentage: 1,
+      // categoryPercentage: 1,
+      // maxBarThickness: 1,
     },
     {
       label: 'Dataset 2',
