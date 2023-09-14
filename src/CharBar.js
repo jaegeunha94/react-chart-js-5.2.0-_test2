@@ -31,6 +31,20 @@ export const options = {
     },
   },
   scales: {
+    xAxes: [
+      {
+        gridLines: {
+          // offsetGridLines: false,
+        },
+      },
+    ],
+    yAxes: [
+      {
+        gridLines: {
+          // offsetGridLines: false,
+        },
+      },
+    ],
     x: {
       grid: {
         offset: true,
