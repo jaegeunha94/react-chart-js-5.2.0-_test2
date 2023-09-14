@@ -30,6 +30,20 @@ export const options = {
       text: 'Chart.js Bar Chart',
     },
   },
+  scales: {
+    x: {
+      grid: {
+        offset: true,
+        // offset: false,
+      },
+    },
+  },
+  y: {
+    grid: {
+      // offset: true,
+      offset: false,
+    },
+  },
 };
 
 const data = {
@@ -41,22 +55,22 @@ const data = {
       label: 'Dataset 1',
       borderColor: 'rgb(255, 99, 132)',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
+      // hoverBackgroundColor: 'blue',
       // borderSkipped: 'true',
       // borderSkipped: 'middle',
       // borderSkipped: 'bottom',
-      // hoverBackgroundColor: 'blue',
-      // borderWidth: 5
+      // borderWidth: 5,
       // borderRadius: 5,
       // barThickness: 48,
-      // minBarLength: 200,
-      pointStyle: 'triangle',
+      // minBarLength: 20,
+      pointStyle: 'line',
     },
     {
       label: 'Dataset 2',
       data: [2000, 1250, 1750, , 1000, 2250, 2400],
       borderColor: 'rgb(53, 162, 235)',
       backgroundColor: 'rgba(53, 162, 235, 0.5)',
-      pointStyle: 'rect',
+      pointStyle: 'line',
     },
   ],
 };
