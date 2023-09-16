@@ -78,12 +78,12 @@ const data = {
       // skipNull: false,
       // xAxisId: 'Wed',  *
       // yAxisId: 'id2',  *
-      // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
       //3. Styling
+      // data: [2000, 1250, 1750, , -500, 1000, 2250, 2400],
       // borderSkipped: 'top',
       // borderSkipped: 'middle',
       // borderSkipped: 'bottom',
-      // borderWidth: 5,
+      borderWidth: 5,
       // borderRadius: 5,
       // minBarLength: 20,
       // pointStyle: 'crossRot',  *
