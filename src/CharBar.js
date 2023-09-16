@@ -94,8 +94,8 @@ const data = {
       // hoverBorderRadius: 5,
       //5. ETC
       // barThickness: 48,
-      // barPercentage: 1,
-      // categoryPercentage: 1,
+      // barPercentage: 0.8,
+      // categoryPercentage: 0.6,
       // maxBarThickness: 1,
     },
     {
