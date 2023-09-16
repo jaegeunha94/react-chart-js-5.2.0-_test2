@@ -80,7 +80,7 @@ const data = {
       // yAxisId: 'id2',  *
       // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
       //3. Styling
-      // borderSkipped: 'true',
+      // borderSkipped: 'top',
       // borderSkipped: 'middle',
       // borderSkipped: 'bottom',
       // borderWidth: 5,
