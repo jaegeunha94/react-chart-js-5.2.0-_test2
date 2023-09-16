@@ -30,6 +30,7 @@ export const options = {
       text: 'Chart.js Bar Chart',
     },
   },
+  // 2. Scale
   scales: {
     xAxes: [
       {
@@ -47,15 +48,13 @@ export const options = {
     ],
     x: {
       grid: {
-        offset: true,
         // offset: false,
       },
     },
   },
   y: {
     grid: {
-      // offset: true,
-      offset: false,
+      // offset: false,
     },
   },
 };
@@ -65,8 +64,17 @@ const data = {
   datasets: [
     {
       data: [2000, 1250, 1750, , 10, 1000, 2250, 2400],
-      // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
       label: 'Dataset 1',
+      // 1. general
+      // base: 100,
+      // clip: 10000,
+      // grouped: false,
+      // indexAxis: 'y',
+      // order: 0,
+      // skipNull: true,
+      // xAxisId: 'id1',
+      // yAxisId: 'id2',
+      // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
       //3. Styling
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
       borderColor: 'rgb(255, 99, 132)',
@@ -76,7 +84,7 @@ const data = {
       // borderWidth: 5,
       // borderRadius: 5,
       // minBarLength: 20,
-      pointStyle: 'line',
+      pointStyle: 'crossRot',
       //4. Intercation
       // hoverBackgroundColor: 'blue',
       // hoverBorderColor: 'blue',
@@ -89,11 +97,73 @@ const data = {
       // maxBarThickness: 1,
     },
     {
+      data: [200, 125, 170, , 100, 250, 240],
       label: 'Dataset 2',
-      data: [2000, 1250, 1750, , 1000, 2250, 2400],
-      borderColor: 'rgb(53, 162, 235)',
-      backgroundColor: 'rgba(53, 162, 235, 0.5)',
-      pointStyle: 'line',
+      // 1. general
+      // base: 100,
+      // clip: 10000,
+      // grouped: false,
+      // indexAxis: 'y',
+      // order: 0,
+      // skipNull: true,
+      // xAxisId: 'id1',
+      // yAxisId: 'id2',
+      // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
+      //3. Styling
+      backgroundColor: 'blue',
+      borderColor: 'blue',
+      // borderSkipped: 'true',
+      // borderSkipped: 'middle',
+      // borderSkipped: 'bottom',
+      // borderWidth: 5,
+      // borderRadius: 5,
+      // minBarLength: 20,
+      pointStyle: 'crossRot',
+      //4. Intercation
+      // hoverBackgroundColor: 'blue',
+      // hoverBorderColor: 'blue',
+      // hoverBorderWidth: 1,
+      // hoverBorderRadius: 5,
+      //5. ETC
+      // barThickness: 48,
+      // barPercentage: 1,
+      // categoryPercentage: 1,
+      // maxBarThickness: 1,
+    },
+    {
+      label: 'Dataset 3',
+      data: [3000, 3250, 3750, 300, 3000, 3250, 3400],
+
+      // 1. general
+      // base: 100,
+      // clip: 10000,
+      // grouped: false,
+      // indexAxis: 'y',
+      // order: 0,
+      // skipNull: true,
+      // xAxisId: 'id1',
+      // yAxisId: 'id2',
+      // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
+      //3. Styling
+      backgroundColor: 'green',
+      borderColor: 'green',
+      // borderSkipped: 'true',
+      // borderSkipped: 'middle',
+      // borderSkipped: 'bottom',
+      // borderWidth: 5,
+      // borderRadius: 5,
+      // minBarLength: 20,
+      pointStyle: 'crossRot',
+      //4. Intercation
+      // hoverBackgroundColor: 'blue',
+      // hoverBorderColor: 'blue',
+      // hoverBorderWidth: 1,
+      // hoverBorderRadius: 5,
+      //5. ETC
+      // barThickness: 48,
+      // barPercentage: 1,
+      // categoryPercentage: 1,
+      // maxBarThickness: 1,
     },
   ],
 };
