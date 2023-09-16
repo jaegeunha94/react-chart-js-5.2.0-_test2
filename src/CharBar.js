@@ -33,20 +33,20 @@ export const options = {
   },
   // 2. Scale
   scales: {
-    xAxes: [
-      {
-        gridLines: {
-          // offsetGridLines: false,  *
-        },
-      },
-    ],
-    yAxes: [
-      {
-        gridLines: {
-          // offsetGridLines: false,  *
-        },
-      },
-    ],
+    // xAxes: [
+    //   {
+    //     gridLines: {
+    //       // offsetGridLines: false,  *
+    //     },
+    //   },
+    // ],
+    // yAxes: [
+    //   {
+    //     gridLines: {
+    //       offsetGridLines: false,
+    //     },
+    //   },
+    // ],
     x: {
       grid: {
         // offset: false,
