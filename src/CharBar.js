@@ -20,8 +20,12 @@ ChartJS.register(
 );
 
 export const options = {
+  maintainAspectRatio: true,
   responsive: true,
   plugins: {
+    // labels: {
+    //   render: 'value',
+    // },
     legend: {
       position: 'top',
       // position: 'bottom',
@@ -68,6 +72,9 @@ const data = {
       label: 'Dataset 1',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
       borderColor: 'rgb(255, 99, 132)',
+      xAxisId: 'x-axis1',
+      yAxisId: 'y-axis1',
+
       // 1. general
       // base: 100,
       // clip: 10000,    *
@@ -76,8 +83,6 @@ const data = {
       // order: 2,
       // skipNull: true,
       // skipNull: false,
-      // xAxisId: 'Wed',  *
-      // yAxisId: 'id2',  *
       //3. Styling
       // data: [2000, 1250, 1750, , -500, 1000, 2250, 2400],
       // borderSkipped: 'top',
@@ -103,6 +108,9 @@ const data = {
       label: 'Dataset 2',
       backgroundColor: 'blue',
       borderColor: 'blue',
+      xAxisId: 'x-axis1',
+      yAxisId: 'y-axis1',
+
       // 1. general
       // base: 100,
       // clip: 10000,
@@ -111,8 +119,6 @@ const data = {
       // order: 2,
       // skipNull: true,
       // skipNull: false,
-      // xAxisId: 'id1',
-      // yAxisId: 'id2',
       // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
       //3. Styling
       // borderSkipped: 'true',
@@ -138,6 +144,9 @@ const data = {
       data: [3000, 3250, 3750, 300, 3000, 3250, 3400],
       backgroundColor: 'green',
       borderColor: 'green',
+      xAxisId: 'x-axis2',
+      yAxisId: 'y-axis2',
+
       // 1. general
       // base: 100,
       // clip: 10000,
@@ -146,8 +155,6 @@ const data = {
       // order: 2,
       // skipNull: true,
       // skipNull: false,
-      // xAxisId: 'id1',
-      // yAxisId: 'id2',
       // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
       //3. Styling
       // borderSkipped: 'true',
@@ -167,6 +174,14 @@ const data = {
       // barPercentage: 1,
       // categoryPercentage: 1,
       // maxBarThickness: 1,
+    },
+    {
+      label: 'Dataset 4',
+      data: [1000, 1250, 1750, 100, 2000, 2250, 400],
+      backgroundColor: 'orange',
+      borderColor: 'orange',
+      xAxisId: 'x-axis2',
+      yAxisId: 'y-axis2',
     },
   ],
 };
