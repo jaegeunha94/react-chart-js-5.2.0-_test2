@@ -35,14 +35,14 @@ export const options = {
     xAxes: [
       {
         gridLines: {
-          // offsetGridLines: false,
+          // offsetGridLines: false,  *
         },
       },
     ],
     yAxes: [
       {
         gridLines: {
-          // offsetGridLines: false,
+          // offsetGridLines: false,  *
         },
       },
     ],
