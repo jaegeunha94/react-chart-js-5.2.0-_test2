@@ -65,26 +65,27 @@ const data = {
     {
       data: [2000, 1250, 1750, , 10, 1000, 2250, 2400],
       label: 'Dataset 1',
-      // 1. general
-      // base: 100,
-      // clip: 10000,
-      // grouped: false,
-      // indexAxis: 'y',
-      // order: 0,
-      // skipNull: true,
-      // xAxisId: 'id1',
-      // yAxisId: 'id2',
-      // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
-      //3. Styling
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
       borderColor: 'rgb(255, 99, 132)',
+      // 1. general
+      // base: 100,
+      // clip: 10000,    *
+      // grouped: false,
+      // indexAxis: 'y',
+      // order: 2,
+      // skipNull: true,
+      // skipNull: false,
+      // xAxisId: 'Wed',  *
+      // yAxisId: 'id2',  *
+      // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
+      //3. Styling
       // borderSkipped: 'true',
       // borderSkipped: 'middle',
       // borderSkipped: 'bottom',
       // borderWidth: 5,
       // borderRadius: 5,
       // minBarLength: 20,
-      pointStyle: 'crossRot',
+      // pointStyle: 'crossRot',  *
       //4. Intercation
       // hoverBackgroundColor: 'blue',
       // hoverBorderColor: 'blue',
@@ -99,19 +100,20 @@ const data = {
     {
       data: [200, 125, 170, , 100, 250, 240],
       label: 'Dataset 2',
+      backgroundColor: 'blue',
+      borderColor: 'blue',
       // 1. general
       // base: 100,
       // clip: 10000,
       // grouped: false,
       // indexAxis: 'y',
-      // order: 0,
+      // order: 2,
       // skipNull: true,
+      // skipNull: false,
       // xAxisId: 'id1',
       // yAxisId: 'id2',
       // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
       //3. Styling
-      backgroundColor: 'blue',
-      borderColor: 'blue',
       // borderSkipped: 'true',
       // borderSkipped: 'middle',
       // borderSkipped: 'bottom',
@@ -133,20 +135,20 @@ const data = {
     {
       label: 'Dataset 3',
       data: [3000, 3250, 3750, 300, 3000, 3250, 3400],
-
+      backgroundColor: 'green',
+      borderColor: 'green',
       // 1. general
       // base: 100,
       // clip: 10000,
       // grouped: false,
       // indexAxis: 'y',
-      // order: 0,
+      // order: 2,
       // skipNull: true,
+      // skipNull: false,
       // xAxisId: 'id1',
       // yAxisId: 'id2',
       // data: [2000, 1250, 1750, , -10, 1000, 2250, 2400],
       //3. Styling
-      backgroundColor: 'green',
-      borderColor: 'green',
       // borderSkipped: 'true',
       // borderSkipped: 'middle',
       // borderSkipped: 'bottom',
