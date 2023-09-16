@@ -83,10 +83,10 @@ const data = {
       // borderSkipped: 'top',
       // borderSkipped: 'middle',
       // borderSkipped: 'bottom',
-      borderWidth: 5,
+      // borderWidth: 5,
       // borderRadius: 5,
       // minBarLength: 20,
-      // pointStyle: 'crossRot',  *
+      // pointStyle: 'crossRot',
       //4. Intercation
       // hoverBackgroundColor: 'blue',
       // hoverBorderColor: 'blue',
