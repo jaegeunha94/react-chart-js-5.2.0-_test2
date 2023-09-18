@@ -108,12 +108,12 @@ export const options = {
       // text: '???',
       // color: 'red',
       // font: '???',
-      // ticks: {
-      //   // Include a dollar sign in the ticks
-      //   callback: function (value, index, ticks) {
-      //     return '$' + value;
-      //   },
-      // },
+      ticks: {
+        // Include a dollar sign in the ticks
+        callback: function (value, index, ticks) {
+          return this.getLabelForValue(value) + '$';
+        },
+      },
 
       // scale
       grid: {
@@ -145,12 +145,12 @@ export const options = {
     // text: '???',
     // color: 'red',
     // font: '???',
-    // ticks: {
-    //   // Include a dollar sign in the ticks
-    //   callback: function (value, index, ticks) {
-    //     return value + '$';
-    //   },
-    // },
+    ticks: {
+      // Include a dollar sign in the ticks
+      callback: function (value, index, ticks) {
+        return this.getLabelForValue(value) + '$';
+      },
+    },
 
     // scale
     grid: {
