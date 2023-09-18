@@ -20,8 +20,23 @@ ChartJS.register(
 );
 
 export const options = {
-  maintainAspectRatio: true,
+  // 반응형 옵션
   responsive: true,
+  maintainAspectRatio: true,
+
+  // Tooltip 옵션
+  interaction: {
+    // 1. point
+    mode: 'point',
+    // 2. nearest
+    mode: 'nearest',
+    // 3. index
+    // mode: 'index',
+    // axis: 'y',
+    //4. dataset
+    // mode: 'dataset',
+  },
+
   plugins: {
     // labels: {
     //   render: 'value',
