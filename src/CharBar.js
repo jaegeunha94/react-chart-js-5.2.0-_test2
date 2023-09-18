@@ -65,11 +65,11 @@ export const options = {
 };
 
 const data = {
-  labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+  labels: ['CPU', 'Memory', 'Disk', 'DiskIO', 'Inlet', 'Inside', 'Outlet'],
   datasets: [
     {
       data: [2000, 1250, 1750, , 10, 1000, 2250, 2400],
-      label: 'Dataset 1',
+      label: 'Host 1',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
       borderColor: 'rgb(255, 99, 132)',
       xAxisId: 'x-axis1',
@@ -105,7 +105,7 @@ const data = {
     },
     {
       data: [200, 125, 170, , 100, 250, 240],
-      label: 'Dataset 2',
+      label: 'Host 2',
       backgroundColor: 'blue',
       borderColor: 'blue',
       xAxisId: 'x-axis1',
@@ -140,7 +140,7 @@ const data = {
       // maxBarThickness: 1,
     },
     {
-      label: 'Dataset 3',
+      label: 'Host 3',
       data: [3000, 3250, 3750, 300, 3000, 3250, 3400],
       backgroundColor: 'green',
       borderColor: 'green',
@@ -176,7 +176,7 @@ const data = {
       // maxBarThickness: 1,
     },
     {
-      label: 'Dataset 4',
+      label: 'Host 4',
       data: [1000, 1250, 1750, 100, 2000, 2250, 400],
       backgroundColor: 'orange',
       borderColor: 'orange',
