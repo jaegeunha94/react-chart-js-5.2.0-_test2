@@ -35,31 +35,49 @@ export const options = {
       text: 'Chart.js Bar Chart',
     },
   },
-  // 2. Scale
+
+  // Axis
+  x: {
+    // alignToPixels: true,
+    // backgroundColor: 'red',
+    // border: ,
+    // display: true,
+    // grid: ,
+    // min: 0,
+    // max: 100,
+    // reverse: true,
+    // stacked: true,
+    // suggestedMin: 0,
+    // suggestedMax: 100,
+    // ticks: object,
+    // weight: 0,
+  },
+
+  y: {
+    // alignToPixels: true,
+    // backgroundColor: 'red',
+    // border: ,
+    // display: true,
+    // grid: ,
+    // min: 0,
+    // max: 100,
+    // reverse: true,
+    // stacked: true,
+    // suggestedMin: 0,
+    // suggestedMax: 100,
+    // ticks: object,
+    // weight: 0,
+  },
+
+  // Scale
   scales: {
-    // xAxes: [
-    //   {
-    //     gridLines: {
-    //       // offsetGridLines: false,  *
-    //     },
-    //   },
-    // ],
-    // yAxes: [
-    //   {
-    //     gridLines: {
-    //       offsetGridLines: false,
-    //     },
-    //   },
-    // ],
     x: {
-      // stacked: true,
       grid: {
         // offset: false,
       },
     },
   },
   y: {
-    // stacked: true,
     grid: {
       // offset: false,
     },
