@@ -85,6 +85,7 @@ export const options = {
   // Scale
   scales: {
     x: {
+      // Axis
       // alignToPixels: true,
       // backgroundColor: 'red',
       // border: ???,
@@ -100,12 +101,22 @@ export const options = {
       // weight: 100,
       // min: 0,
       // max: 100,
+
+      // Labeling Axes
+      // display: false,
+      // align: 'end',
+      // text: '???',
+      // color: 'red',
+      // font: '???',
+
+      // scale
       grid: {
         // offset: false,
       },
     },
   },
   y: {
+    // Axis
     // alignToPixels: true,
     // backgroundColor: 'red',
     // border: ???,
@@ -119,6 +130,17 @@ export const options = {
     // suggestedMax: 100,
     // ticks: ???,
     // weight: 100,
+    // min: 0,
+    // max: 100,
+
+    // Labeling Axes
+    // display: false,
+    // align: 'end',
+    // text: '???',
+    // color: 'red',
+    // font: '???',
+
+    // scale
     grid: {
       // offset: false,
     },
