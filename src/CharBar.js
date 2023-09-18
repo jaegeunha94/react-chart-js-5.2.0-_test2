@@ -52,12 +52,14 @@ export const options = {
     //   },
     // ],
     x: {
+      // stacked: true,
       grid: {
         // offset: false,
       },
     },
   },
   y: {
+    // stacked: true,
     grid: {
       // offset: false,
     },
