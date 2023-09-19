@@ -24,20 +24,24 @@ export const options = {
   responsive: true,
   maintainAspectRatio: true,
 
-  // Tooltip 옵션
-  interaction: {
-    // 1. point
-    mode: 'point',
-    // 2. nearest
-    mode: 'nearest',
-    // 3. index
-    // mode: 'index',
-    // axis: 'y',
-    //4. dataset
-    // mode: 'dataset',
-  },
-
   plugins: {
+    // Tooltip 옵션
+    tooltip: {
+      // usePointStyle: 'star',
+        // caretSize: 100,
+        // position: 'nearest',
+      // interaction: {
+      //   // 1. point
+      //   // mode: 'point',
+      //   // 2. nearest
+      //   // mode: 'nearest',
+      //   // 3. index
+      //   mode: 'index',
+      //   // axis: 'y',
+      //   //4. dataset
+      //   // mode: 'dataset',
+      // },
+    },
     // labels: {
     //   render: 'value',
     // },
