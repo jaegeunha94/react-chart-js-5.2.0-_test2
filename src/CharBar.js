@@ -27,27 +27,28 @@ export const options = {
   plugins: {
     // Tooltip 옵션
     tooltip: {
-      // usePointStyle: 'star',
-        // caretSize: 100,
-        // position: 'nearest',
-      // interaction: {
-      //   // 1. point
-      //   // mode: 'point',
-      //   // 2. nearest
-      //   // mode: 'nearest',
-      //   // 3. index
-      //   mode: 'index',
-      //   // axis: 'y',
-      //   //4. dataset
-      //   // mode: 'dataset',
-      // },
+      usePointStyle: 'star',
+      caretSize: 0,
+      // position: 'nearest',
+      interaction: {
+        //   // 1. point
+        //   // mode: 'point',
+        //   // 2. nearest
+        // mode: 'nearest',
+        //   // 3. index
+        mode: 'index',
+        //   // axis: 'y',
+        //   //4. dataset
+        //   // mode: 'dataset',
+      },
     },
     // labels: {
     //   render: 'value',
     // },
     legend: {
-      position: 'top',
-      // position: 'bottom',
+      // position: 'top',
+      position: 'bottom',
+      // display: false,
     },
     title: {
       display: true,
@@ -67,7 +68,7 @@ export const options = {
     // suggestedMin: 1000,
     // suggestedMax: 100,
     // ticks: ???,
-    // weight: 100,
+    // weight: 500,
   },
 
   y: {
@@ -187,7 +188,7 @@ const data = {
       // borderSkipped: 'top',
       // borderSkipped: 'middle',
       // borderSkipped: 'bottom',
-      // borderWidth: 5,
+      // borderWidth: 30,
       // borderRadius: 5,
       // minBarLength: 20,
       // pointStyle: 'crossRot',
@@ -209,6 +210,7 @@ const data = {
       borderColor: 'blue',
       xAxisId: 'x-axis1',
       yAxisId: 'y-axis1',
+      // skipNull: true,
 
       // 1. general
       // base: 100,
